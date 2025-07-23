@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-learning",
+  "version": "1.0.0",
+  "description": "going trough a node js course",
+  "main": "project/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon project/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
