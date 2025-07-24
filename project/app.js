@@ -2,8 +2,11 @@ const http = require('http');
 
 const routes = require('./routes');
 
-console.log(routes.someText);
+const app = express()
 
-const server = http.createServer(routes.handler);
+app.use((req,res,next)=>{
+    res.send()
+    next()
+})
 
-server.listen(3000);
+app.listen(3000);
