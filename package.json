@@ -2,10 +2,10 @@
   "name": "nodejs-learning",
   "version": "1.0.0",
   "description": "going trough a node js course",
-  "main": "project/app.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon project/app.js"
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
