@@ -9,6 +9,8 @@ const shopRoutes = require('./routes/shop');
 
 app.use(express.urlencoded({extended: false}));
 app.use(express.static(path.join(__dirname, 'public')));
+app.set('view engine', 'pug');
+app.set('views', 'views');
 
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
