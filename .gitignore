@@ -35,6 +35,7 @@ coverage/
 .vscode/
 .idea/
 *.swp
+database.js
 
 # OS-specific
 .DS_Store
